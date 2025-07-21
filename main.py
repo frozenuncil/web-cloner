@@ -9,7 +9,7 @@ from urllib.parse import urljoin
 
 
 
-url = 'https://nitroprizes.xyz'
+url = 'your-url'
 reponse = requests.get(url)
 soup = BeautifulSoup(reponse.text, 'html.parser')
 
